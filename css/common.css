@@ -1,8 +1,6 @@
 *,
 *::before,
-*::after {
-	box-sizing: border-box;
-}
+*::after { box-sizing: border-box; } 
 body,
 h1,
 h2,
@@ -12,91 +10,37 @@ p,
 figure,
 blockquote,
 dl,
-dd {
-	margin: 0;
-}
+dd { margin: 0; } 
 ul,
-ol {
-	list-style: none;
-	padding: 0;
-}
+ol { list-style: none; padding: 0; } 
 img,
-picture {
-	max-width: 100%;
-	display: block;
-}
-body {
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
-	font-size: 1.6rem;
-	color: #333333;
-	margin: 0;
-	font-family: 'Escoredream', sans-serif;
-}
+picture { max-width: 100%; display: block; height: fit-content; } 
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; font-size: 1.6rem; color: #333333; margin: 0; font-family: 'Escoredream', sans-serif; } 
 button,
-a {
-	cursor: pointer;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-}
-html {
-	-webkit-text-size-adjust: 100%;
-}
+a { cursor: pointer; } 
+a { text-decoration: none; color: inherit; } 
+html { -webkit-text-size-adjust: 100%; } 
 input,
 button,
 textarea,
-select {
-	font: inherit;
-}
-button {
-	background: none;
-	border: none;
-	padding: 0;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+select { font: inherit; } 
+button { background: none; border: none; padding: 0; } 
+table { border-collapse: collapse; border-spacing: 0; } 
 
 /* font */
 
-html {
-	font-size: 62.5%; /* 16px의 62.5%는 10px입니다! */
-}
-.font_12 {
-	font-size: 1.2rem;
-}
-.font_14 {
-	/* 설명문 */
-	font-size: 1.4rem;
-}
-.font_16 {
-	/* 기본값 */
-	font-size: 1.6rem;
-}
-.font_18 {
-	font-size: 1.8rem;
-}
-.font_20 {
-	font-size: 2rem;
-}
-.font_24 {
-	font-size: 2.4rem;
-}
-.font_18_bold {
-	/* 설명문 타이틀 */
-	font-size: 1.8rem;
-	font-weight: 600;
-}
-.font_20_bold {
-	font-size: 2rem;
-	font-weight: 700;
-}
-.font_24_bold {
-	font-size: 2.4rem;
-	font-weight: 700;
-}
+html { font-size: 62.5%; /* 16px의 62.5%는 10px입니다! */ } 
+.font_12 { font-size: 1.2rem; } 
+.font_14 { /* 설명문 */
+font-size: 1.4rem; } 
+.font_16 { /* 기본값 */
+font-size: 1.6rem; } 
+.font_18 { font-size: 1.8rem; } 
+.font_20 { font-size: 2rem; } 
+.font_24 { font-size: 2.4rem; } 
+.font_18_bold { /* 설명문 타이틀 */
+font-size: 1.8rem; font-weight: 600; } 
+.font_20_bold { font-size: 2rem; font-weight: 700; } 
+.font_24_bold { font-size: 2.4rem; font-weight: 700; } 
 
 /* */

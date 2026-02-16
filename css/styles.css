@@ -1,78 +1,25 @@
-:root {
-	/* 메인 포인트 컬러 */
-	--main-color: #333333;
-	--sub-color: #ffe3b3;
-	--point-color: #9f99d1;
+:root {/* 메인 포인트 컬러 */
+--main-color: #333333;--sub-color: #ffe3b3;--point-color: #9f99d1;
+/* 상태 컬러 */
+--color_pink: #dbaad7;--color_pitch: #f6beb0;--color-blue: #0d6efd; } 
 
-	/* 상태 컬러 */
-	--color_pink: #dbaad7;
-	--color_pitch: #f6beb0;
-	--color-blue: #0d6efd;
-}
+.wrap { } 
+.wrap.library {display: flex;flex-direction: column;height: 100vh; } 
 
-.wrap {
-}
-.wrap.library {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-
-.wrap.library header {
-	height: 20%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-.wrap.library header {
-}
+.wrap.library header {height: 20%;display: flex;justify-content: center;align-items: center;flex-direction: column; } 
+.wrap.library header { } 
 
 /** 첫 화면 */
-.library_wrap {
-	width: 100%;
-}
-.library_wrap .library_card_list {
-	width: 80%;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-}
-.library_wrap .library_card_list .library_card_item {
-	border: 1px solid #dfdfdf;
-	box-shadow: 0 5px 10px 0px #55555510;
-	padding: 3rem;
-	margin: 1rem;
-	box-sizing: border-box;
-	border-radius: 2rem;
-	width: calc(100% / 3 - 2rem);
-}
-.library_wrap .library_card_list .library_card_item:hover {
-	border: 1px solid #333333;
-	box-shadow: 0 5px 10px 0px #55555510;
-}
-.library_card_item .card_title {
-	display: flex;
-}
-.library_card_item .card_text {
-	padding: 2rem 0 1rem 0;
-}
+.library_wrap {width: 100%; } 
+.library_wrap .library_card_list {width: 80%;margin: 0 auto;display: flex;flex-wrap: wrap; } 
+.library_wrap .library_card_list .library_card_item {border: 1px solid #dfdfdf;box-shadow: 0 5px 10px 0px #55555510;padding: 3rem;margin: 1rem;box-sizing: border-box;border-radius: 2rem;width: calc(100% / 3 - 2rem); } 
+.library_wrap .library_card_list .library_card_item:hover {border: 1px solid #333333;box-shadow: 0 5px 10px 0px #55555510; } 
+.library_card_item .card_title {display: flex; } 
+.library_card_item .card_text {padding: 2rem 0 1rem 0; } 
 
-.library.footer {
-}
+.library.footer { } 
 
-.cms_wrap {
-	padding:1rem; display: block;
-}
-.cms_wrap .aside .logo {}
+.cms_wrap {padding:1rem; display: block; } 
+.cms_wrap .aside .logo { } 
 
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
-.cms_wrap
+.cms_wrap {}
