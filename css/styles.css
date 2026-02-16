@@ -23,19 +23,22 @@
 .cms_wrap .aside nav { width: 240px; background-color: #5A649C; height: calc(100vh - 50px); position: relative; border-top-left-radius: 25px; padding:2rem; } 
 .cms_wrap .aside .aside_depth01 { position: relative; } 
 .cms_wrap .aside .aside_depth01 > a.item { display: flex; padding: 1rem 2rem; color:#fff; font-weight: 200; font-size: 1.4rem; margin-bottom: .5rem; align-items: center; } 
-.cms_wrap .aside .aside_depth01 > a.item > span { padding-right: 1rem; } 
+.cms_wrap .aside .aside_depth01 > a.item > span { padding-right: 1rem;     vertical-align: bottom; } 
 .cms_wrap .aside .aside_depth01 > a.item:hover { position: relative; display: flex; padding: 1rem 2rem; color:#333; font-weight: 400; margin-bottom: .5rem; background-color: #fff; border-radius: 24px; } 
 .cms_wrap .aside .aside_depth01 > a.item:hover > span { padding-right: 1rem; } 
 .cms_wrap .aside .aside_depth01 > a.item:hover > span::after { content: "arrow_forward_ios"; display: block; position: absolute; top: 50%; right: 1.5rem; color: #333; transform: translateY(-50%); font-size: 2rem; } 
+
 .cms_wrap .aside .logo { width: 240px; height: 50px; background-color: antiquewhite; display: flex; justify-content: center; align-items: center; } 
 .cms_wrap .aside .logout { position: absolute; bottom: 5rem; left: 50%; transform: translateX(-50%); } 
 .cms_wrap .aside .logout > a { display: flex; color:#fff; font-size: 1.4rem; } 
 .cms_wrap .aside .logout > a > span { padding-left:1rem; } 
 
 
-.cms_wrap .aside .aside_depth01 > ul.aside_depth02 { display: none; padding: 1rem 0; } 
-.cms_wrap .aside .aside_depth01 > ul.aside_depth02 > li > a { color: #fff; font-weight: 200; font-size: 1.3rem; padding-left: 5.5rem; } 
-.cms_wrap .aside .aside_depth01 > ul.aside_depth02.active { display: block; padding: 1rem 0; } 
+.cms_wrap .aside .aside_depth01 ul.aside_depth02 { display: block; opacity: 0; height: 0; transition: all .3s; } 
+.cms_wrap .aside .aside_depth01.active ul.aside_depth02 { opacity: 1; height: fit-content; transition: all .3s; } 
+.cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a { color: #fff; font-weight: 200; font-size: 1.3rem; margin-left: 5.5rem; padding: 1rem 0; display: block; } 
+.cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a:hover { color:#dbaad7; } 
+.cms_wrap .aside .aside_depth01.active ul.aside_depth02 { display: block; } 
 
 .main_wrap { } 
 
