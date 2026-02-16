@@ -27,6 +27,8 @@
 }
 .wrap.library header {
 }
+
+/** 첫 화면 */
 .library_wrap {
 	width: 100%;
 }
@@ -58,3 +60,19 @@
 
 .library.footer {
 }
+
+.cms_wrap {
+	padding:1rem; display: block;
+}
+.cms_wrap .aside .logo {}
+
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
+.cms_wrap
