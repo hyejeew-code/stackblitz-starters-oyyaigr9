@@ -1,46 +1,48 @@
 :root { /* 메인 포인트 컬러 */
-    --main-color: #333333; --sub-color: #ffe3b3; --point-color: #9f99d1; /* 상태 컬러 */
-    --color_pink: #dbaad7; --color_pitch: #f6beb0; --color-blue: #0d6efd; } 
-    
-    .wrap { } 
-    .wrap.library { display: flex; flex-direction: column; height: 100vh; } 
-    
-    .wrap.library header { height: 20%; display: flex; justify-content: center; align-items: center; flex-direction: column; } 
-    .wrap.library header { } 
-    
-    /** 첫 화면 */
-    .library_wrap { width: 100%; } 
-    .library_wrap .library_card_list { width: 80%; margin: 0 auto; display: flex; flex-wrap: wrap; } 
-    .library_wrap .library_card_list .library_card_item { border: 1px solid #dfdfdf; box-shadow: 0 5px 10px 0px #55555510; padding: 3rem; margin: 1rem; box-sizing: border-box; border-radius: 2rem; width: calc(100% / 3 - 2rem); } 
-    .library_wrap .library_card_list .library_card_item:hover { border: 1px solid #333333; box-shadow: 0 5px 10px 0px #55555510; } 
-    .library_card_item .card_title { display: flex; } 
-    .library_card_item .card_text { padding: 2rem 0 1rem 0; } 
-    
-    .library.footer { } 
-    
-    .cms_wrap { display: flex; width: 100vw; height: 100vh; box-sizing: border-box; } 
-    .cms_wrap .aside { } 
-    .cms_wrap .aside nav { width: 240px; background-color: #5A649C; height: calc(100vh - 50px); position: relative; border-top-left-radius: 25px; padding:2rem; } 
-    .cms_wrap .aside .aside_depth01 { position: relative; } 
-    .cms_wrap .aside .aside_depth01 > a.item { display: flex; padding: 1rem 2rem; color:#fff; font-weight: 200; font-size: 1.4rem; margin-bottom: .5rem; align-items: center; } 
-    .cms_wrap .aside .aside_depth01 > a.item > span { padding-right: 1rem;     vertical-align: bottom; } 
-    .cms_wrap .aside .aside_depth01 > a.item:hover { position: relative; display: flex; padding: 1rem 2rem; color:#333; font-weight: 400; margin-bottom: .5rem; background-color: #fff; border-radius: 24px; } 
-    .cms_wrap .aside .aside_depth01 > a.item:hover > span { padding-right: 1rem; } 
-    .cms_wrap .aside .aside_depth01 > a.item:hover > span::after { content: "arrow_forward_ios"; display: block; position: absolute; top: 50%; right: 1.5rem; color: #333; transform: translateY(-50%); font-size: 2rem; } 
-    
-    .cms_wrap .aside .aside_depth01 ul.aside_depth02 { display: none; } 
-    .cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a { color: #fff; font-weight: 200; font-size: 1.3rem; margin-left: 5.5rem; padding: 1rem 0; display: block; } 
-    .cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a:hover { color:#dbaad7; } 
-    
-    .cms_wrap .aside .logo { width: 240px; height: 50px; background-color: antiquewhite; display: flex; justify-content: center; align-items: center; } 
-    .cms_wrap .aside .logout { position: absolute; bottom: 5rem; left: 50%; transform: translateX(-50%); } 
-    .cms_wrap .aside .logout > a { display: flex; color:#fff; font-size: 1.4rem; } 
-    .cms_wrap .aside .logout > a > span { padding-left:1rem; } 
+ --main-color: #333333; --sub-color: #ffe3b3; --point-color: #9f99d1; /* 상태 컬러 */
+ --color_pink: #dbaad7; --color_pitch: #f6beb0; --color-blue: #0d6efd; } 
+ 
+ .wrap { } 
+ .wrap.library { display: flex; flex-direction: column; height: 100vh; } 
+ 
+ .wrap.library header { height: 20%; display: flex; justify-content: center; align-items: center; flex-direction: column; } 
+ .wrap.library header { } 
+ 
+ /** 첫 화면 */
+ .library_wrap { width: 100%; } 
+ .library_wrap .library_card_list { width: 80%; margin: 0 auto; display: flex; flex-wrap: wrap; } 
+ .library_wrap .library_card_list .library_card_item { border: 1px solid #dfdfdf; box-shadow: 0 5px 10px 0px #55555510; padding: 3rem; margin: 1rem; box-sizing: border-box; border-radius: 2rem; width: calc(100% / 3 - 2rem); } 
+ .library_wrap .library_card_list .library_card_item:hover { border: 1px solid #333333; box-shadow: 0 5px 10px 0px #55555510; } 
+ .library_card_item .card_title { display: flex; } 
+ .library_card_item .card_text { padding: 2rem 0 1rem 0; } 
+ 
+ .library.footer { } 
+ 
+ .cms_wrap { display: flex; width: 100vw; height: 100vh; box-sizing: border-box; } 
+ .cms_wrap .aside { } 
+ .cms_wrap .aside nav { width: 240px; background-color: #5A649C; height: calc(100vh - 50px); position: relative; border-top-left-radius: 25px; padding:2rem; } 
+ .cms_wrap .aside .aside_depth01 { position: relative; } 
+ .cms_wrap .aside .aside_depth01 > a.item { display: flex; padding: 1rem 2rem; color:#fff; font-weight: 200; font-size: 1.4rem; margin-bottom: .5rem; align-items: center; } 
+ .cms_wrap .aside .aside_depth01 > a.item > span { padding-right: 1rem; vertical-align: bottom; } 
+ .cms_wrap .aside .aside_depth01 > a.item:hover { position: relative; display: flex; padding: 1rem 2rem; color:#333; font-weight: 400; margin-bottom: .5rem; background-color: #fff; border-radius: 24px; } 
+ .cms_wrap .aside .aside_depth01 > a.item:hover > span { padding-right: 1rem; } 
+ .cms_wrap .aside .aside_depth01 > a.item:hover > span::after { content: "arrow_forward_ios"; display: block; position: absolute; top: 50%; right: 1.5rem; color: #333; transform: translateY(-50%); font-size: 2rem; } 
+ 
+ .cms_wrap .aside .aside_depth01 ul.aside_depth02 { display: none; } 
+ .cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a { color: #fff; font-weight: 200; font-size: 1.3rem; margin-left: 5.5rem; padding: 1rem 0; display: block; } 
+ .cms_wrap .aside .aside_depth01 ul.aside_depth02 > li > a:hover { color:#ffffff; text-decoration: underline; } 
+ 
+ .cms_wrap .aside .logo { width: 240px; height: 50px; background-color: antiquewhite; display: flex; justify-content: center; align-items: center; } 
+ .cms_wrap .aside .logo > img {width:100%; height: fit-content;}
+ .cms_wrap .aside .logout { position: absolute; bottom: 5rem; left: 50%; transform: translateX(-50%); } 
+ .cms_wrap .aside .logout > a { display: flex; color:#fff; font-size: 1.4rem; } 
+ .cms_wrap .aside .logout > a > span { padding-left:1rem; } 
 
-    .main_wrap { } 
-    
-    
-    
-    
-    
-    
+ .main_wrap { } 
+ .main_wrap .title_content .title { width: 100%; height: 50px; padding: 1rem; display: flex; align-items: center; } 
+ 
+ 
+ 
+ 
+ 
+ 
